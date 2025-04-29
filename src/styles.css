@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+html, body {
+    height: auto;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 42px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: .5rem;
+    color: white;
+
+}
+
+button {
+    width: 150px;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    background-color: #e5e5e5;
+    font-weight: 600;
+}
+
+button:hover {
+    border: 2px solid;
+}
+
+.tasks-box {
+    margin: 2rem 5rem;
+    height: 100%;
+}
+
+.tasks-box h1 {
+    font-size: 1.5rem;
+}
+
+.tasks-box-h {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*.task {
+
+}*/
+
+.all {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.unfinished {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.finished {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.task {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: .5rem;
+}
+
+.pending {
+    display: none;
+}
+
+.overdue {
+    display: none;
+}
+
+.completed {
+    display: none;
+}
+
+.trash-icon {
+    width: 16px;
+    height: 20px;
+}
+
+add-task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.add-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.main-page {
+    display: none;
+}
+
+
+.login-page {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.error {
+    color: red;
+    font-size: .8rem;
+}
+
+.task-name{
+    font-size: 1rem;
+    font-weight: 600;
+}

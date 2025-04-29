@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
+    <title>Cantor: To Do WebApp</title>
+</head>
+<body>
+    <header>To Do App</header>
+    <div class="nav">
+        <button id="all-btn" onclick="makeAllVisible()">All</button>
+        <button id="unfinished-btn" onclick="makeUnfinishedVisible()">Unfinished</button>
+        <button id="finished-btn" onclick="makeFinishedVisible()">Finished</button>
+    </div>
+
+    <div class="tasks-box">
+        <div class="tasks-box-h">      
+            <h1>Tasks</h1>
+            <add-task id="add-task">
+                <img src="src/files/add-icon.svg" alt="Add Task" class="add-icon">
+            </add-task>
+        </div>
+  
+        <div class="all">
+            <div class="task"></div>
+        </div>
+        <div class="unfinished">
+            <div class="task"></div>
+        </div>
+        <div class="finished">
+            <div class="task"></div>
+        </div>
+    </div>
+    </div>
+
+    <script src="src/script.js"></script>
+</body>
+</html>
