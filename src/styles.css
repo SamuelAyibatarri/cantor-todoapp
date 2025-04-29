@@ -116,6 +116,7 @@ button:hover {
 .trash-icon {
     width: 30px;
     height: 30px;
+    color: red;
 }
 
 add-task {
