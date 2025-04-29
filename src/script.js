@@ -174,7 +174,7 @@ function createTaskHTML(name, id, status) {
                 <input type="checkbox" class="task-checkbox" ${status} onclick="toggleCheck(this, '${name}')">
                 <span class="task-name">${name}</span>
             </div>
-            <img class="trash-icon" src="src\files\trash-icon.svg" onclick="deleteTask('${name}')">
+            <img class="trash-icon" src="https://icons8.com/icon/85081/trash" onclick="deleteTask('${name}')">
         </div>
     `;
 }
